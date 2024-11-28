@@ -18,13 +18,29 @@ h1{
     font-size: 30px;
     font-weight: 500;
     text-align: center;
-
 }
+
 h2{
     color:#13643c;
     font-style: normal;
     font-size: 16px;
     text-align: center;
+}
+
+.imagesource{
+    text-align: left;
+    font-size: 12px;
+    color: black;
+    margin: 0px 50px 0px;
+
+}
+
+#intro{
+    background-color: aquamarine;
+    color: #51229e;
+    text-align: center;
+    font-size: 20px;
+    
 }
 
 h3{
@@ -43,6 +59,7 @@ h3{
 section h3 p {
     color:green;
     font-style: italic;
+    text-align: center;
 }
 
 p{
@@ -68,6 +85,25 @@ li{
     these are examples of adding varying font sizes&styles*/
 }
 
+.keyterms{
+    background-color: rgb(169, 243, 21);
+    width: 500px;
+    height: 300 px;
+    padding: 10 px;
+    border: 2px dotted grey;
+    text-align: center;
+    font-size: 24px;
+    }
+
+.key-termsall{
+    background-color: rgb(211, 236, 159);
+    width: 450px;
+    height: 300 px;
+    padding: 10 px;
+    border: 2px dashed grey;
+    text-align: right;
+}
+
 div{
     color: rgba(6, 124, 75, 0.644)
 }
@@ -79,5 +115,5 @@ footer{
 /*element:state*/
 
 figcaption a:hover {
-    text-decoration: underline;
+text-decoration: underline;
 }
