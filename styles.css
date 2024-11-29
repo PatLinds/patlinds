@@ -7,15 +7,18 @@
 
 body{
     background-color: beige;
-    /*background-image: url("./images/ahousahtlogo.jpeg");
-    background-size: auto;
-    background-position-x: right;
-    background-repeat: no-repeat;*/
     max-width: 400;
     max-height: 400px;
     font-family: "Karla", sans-serif, Arial;
     font-size: 16px;
 }
+
+/*.banner{
+    background-image: url("./images/hesquiaht2.png");
+    background-size: 300px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}*/
 
 div.transbox {
     margin: 30px;
