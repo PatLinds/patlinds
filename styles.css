@@ -140,8 +140,8 @@ li{
 .keyterms{
     background-color: rgb(169, 243, 21);
     width: 300px;
-    height: 300 px;
-    padding: 10 px;
+    height: 50px;
+    padding: 10px;
     border: 2px dotted grey;
     text-align: center;
     font-size: 24px;
@@ -150,8 +150,8 @@ li{
 .key-termsall{
     background-color: rgb(211, 236, 159);
     width: 300px;
-    height: 300 px;
-    padding: 10 px;
+    height: 200px;
+    padding: 10px;
     border: 2px dashed grey;
     text-align: center;
 }
@@ -159,8 +159,8 @@ li{
 .numbers{
     background-color: rgb(169, 243, 21);
     width: 300px;
-    height: 300 px;
-    padding: 10 px;
+    height: 50px;
+    padding: 10px;
     border: 2px dotted grey;
     text-align: center;
     font-size: 24px;
@@ -169,8 +169,8 @@ li{
 .numbers-all{
     background-color: rgb(211, 236, 159);
     width: 300px;
-    height: 300 px;
-    padding: 10 px;
+    height: 200px;
+    padding: 10px;
     border: 2px dashed grey;
     text-align: center;
 }
@@ -178,8 +178,8 @@ li{
 .weekdays{
     background-color: rgb(169, 243, 21);
     width: 300px;
-    height: 300 px;
-    padding: 10 px;
+    height: 50px;
+    padding: 10px;
     border: 2px dotted grey;
     text-align: center;
     font-size: 24px;
@@ -188,8 +188,8 @@ li{
 .weekdays-all{
     background-color: rgb(211, 236, 159);
     width: 300px;
-    height: 300 px;
-    padding: 10 px;
+    height: 200px;
+    padding: 10px;
     border: 2px dashed grey;
     text-align: center;
 }
@@ -197,8 +197,8 @@ li{
 .months{
     background-color: rgb(169, 243, 21);
     width: 300px;
-    height: 300 px;
-    padding: 10 px;
+    height: 50px;
+    padding: 10px;
     border: 2px dotted grey;
     text-align: center;
     font-size: 24px;
@@ -207,8 +207,8 @@ li{
 .months-all{
     background-color: rgb(211, 236, 159);
     width: 300px;
-    height: 300 px;
-    padding: 10 px;
+    height: 250px;
+    padding: 10px;
     border: 2px dashed grey;
     text-align: center;
 }
