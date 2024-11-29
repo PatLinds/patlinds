@@ -2,15 +2,33 @@
 *{
     /*reset our code, set up our website*/
     /*least specific element*/
-    font-size: 100%;
-    
+    font-size: 100%;  
 }
 
 body{
     background-color: beige;
+    /*background-image: url("./images/ahousahtlogo.jpeg");
+    background-size: auto;
+    background-position-x: right;
+    background-repeat: no-repeat;*/
+    max-width: 400;
+    max-height: 400px;
     font-family: "Karla", sans-serif, Arial;
     font-size: 16px;
 }
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+  }
+  
+  div.transbox p {
+    margin: 5%;
+    font-weight: normal;
+    color: #0b0eb9;
+  }
 
 h1{
     color: green;
@@ -27,7 +45,7 @@ h2{
     text-align: center;
 }
 
-#imagesource{
+.imagesource{
     text-align: left;
     font-size: 12px;
     color: black;
@@ -39,14 +57,37 @@ h2{
     color: #51229e;
     text-align: center;
     font-size: 20px; 
+    border: 200px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#myfamily{
+    background-color: aquamarine;
+    color: #51229e;
+    text-align: center;
+    font-size: 20px;
+    border: 200px;
+    padding: 10px;
+    margin: 20px;
+
 }
 
 h3{
     color: #119955;
     font-style: normal;
     font-size: 16px;
+    text-align: center;
+    max-width: 800px;  
 }
 
+h4{
+    color: #119955;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    max-width: 800px;  
+}
 /* h1, h2, h3{ 
     font-weight: 600;
     font-style: italic;
@@ -58,6 +99,7 @@ section h3 p {
     color:green;
     font-style: italic;
     text-align: center;
+    
 }
 
 p{
@@ -69,6 +111,22 @@ p{
 a{
     color: pink;
     text-decoration: none;
+}
+.Column1 {
+    float: left;
+    width: 50%;
+   }
+   
+   .Column2 {
+      float: right;
+      width: 50%;
+   }
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
 }
 
 a:hover{
@@ -85,7 +143,7 @@ li{
 
 .keyterms{
     background-color: rgb(169, 243, 21);
-    width: 500px;
+    width: 300px;
     height: 300 px;
     padding: 10 px;
     border: 2px dotted grey;
@@ -95,19 +153,81 @@ li{
 
 .key-termsall{
     background-color: rgb(211, 236, 159);
-    width: 450px;
+    width: 300px;
     height: 300 px;
     padding: 10 px;
     border: 2px dashed grey;
-    text-align: right;
+    text-align: center;
 }
 
+.numbers{
+    background-color: rgb(169, 243, 21);
+    width: 300px;
+    height: 300 px;
+    padding: 10 px;
+    border: 2px dotted grey;
+    text-align: center;
+    font-size: 24px;
+}
+
+.numbers-all{
+    background-color: rgb(211, 236, 159);
+    width: 300px;
+    height: 300 px;
+    padding: 10 px;
+    border: 2px dashed grey;
+    text-align: center;
+}
+
+.weekdays{
+    background-color: rgb(169, 243, 21);
+    width: 300px;
+    height: 300 px;
+    padding: 10 px;
+    border: 2px dotted grey;
+    text-align: center;
+    font-size: 24px;
+}
+
+.weekdays-all{
+    background-color: rgb(211, 236, 159);
+    width: 300px;
+    height: 300 px;
+    padding: 10 px;
+    border: 2px dashed grey;
+    text-align: center;
+}
+
+.months{
+    background-color: rgb(169, 243, 21);
+    width: 300px;
+    height: 300 px;
+    padding: 10 px;
+    border: 2px dotted grey;
+    text-align: center;
+    font-size: 24px;
+}
+
+.months-all{
+    background-color: rgb(211, 236, 159);
+    width: 300px;
+    height: 300 px;
+    padding: 10 px;
+    border: 2px dashed grey;
+    text-align: center;
+}
 div{
     color: rgba(6, 124, 75, 0.644)
 }
 
 footer{
     background-color: rgb(189, 218, 189);
+    margin: 10px 20px;
+    border: 2px;
+    padding: 20px;
+    content: 80%;
+
+
 }
 
 /*element:state*/
